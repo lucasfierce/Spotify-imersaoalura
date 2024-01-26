@@ -1,0 +1,235 @@
+.main-container {
+    max-width: 80vw;
+    height: 10vh;
+    margin-left: 320px;
+    margin-right: 10px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-color: var(--darkgrey);
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 20px;
+    background-color: var(--section-grey);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: var(--white);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+}
+
+.header__login .subscribe:hover{
+    color: var(--white);
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+}
+
+.header__login .login:hover {
+    transform: scale(1.1);
+}
+
+.playlist__container {
+    max-width: 80vw;
+    height: 76.4vh;
+    padding-top: 16px;
+    margin-left: 320px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: var(--darkgrey);
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .session {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer__scroll__container {
+    max-height: 56vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+
+.offer__scroll__container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll__container::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.offer__list__item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px 16px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer__list__item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%,-2%);
+}
+
+.cards > .card1 {
+    background-color: #005543;
+}
+
+.cards > .card2 {
+    background-color: #ad00ff;
+}
+
+.cards > .card3 {
+    background-color: #001e61;
+}
+
+.cards > .card4 {
+    background-color: #841a21;
+}
+
+.cards > .card5 {
+    background-color: #e8115b; 
+}
+
+.cards > .card6 {
+    background-color: #3f5a80; 
+}
+
+.cards > .card7 {
+    background-color: #715788; 
+}
+
+.cards > .card8 {
+    background-color: #005f00; 
+}
+
+.cards > .card9 {
+    background-color: #001c55;
+}
+
+.cards > .card10 {
+    background-color: #e91429;
+}
+
+.cards > .card11 {
+    background-color: #483448;
+}
+
+.cards > .card12 {
+    background-color: #e43700;
+}
+
+.cards > .card13 {
+    background-color: #c54800;
+}
+
+.cards > .card14 {
+    background-color: #00004b;
+}
+
+.cards > .card15 {
+    background-color: #3c1e50;
+}
