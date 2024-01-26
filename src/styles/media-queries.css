@@ -2,4 +2,99 @@
     .offer__list__item {
         grid-template-columns: 1fr 1fr;
     }
+
+    .header__search {
+        width: auto !important;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 700px){
+
+    .sidebar {
+        width: 18rem;
+    }
+
+    .header__navigation {
+        background-color: var(--darkgrey);
+    }
+
+    .arrow-left, .arrow-right {
+        display: none;
+    }
+    .header__login {
+        width: 75vw;
+    }
+    
+    .header__login .subscribe {
+        width: 30%;
+    }
+
+    .playlist__container {
+        height: 20%;
+        background-color: var(--darkgrey);
+    }
+
+    .offer__list__item {
+        grid-template-columns: 1fr;
+    }
+
+    .offer__scroll__container {
+        overflow-y: auto;
+    }
+
+    .ads__footer footer{
+        height: 100px;
+        width: 94%;
+    }
+
+    .footer__subtitle {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .sidebar {
+        width: 300px;
+    }
+
+    .header__navigation {
+        margin-left: 10px;
+        background-color: transparent;
+    }
+
+    .arrow-left, .arrow-right {
+        display: none;
+    }
+    .header__login {
+        width: 80vw;
+    }
+    
+    .header__login .subscribe {
+        width: 110px;
+    }
+
+    .playlist__container {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .offer__list__item {
+        grid-template-columns: 1fr;
+    }
+
+    .offer__scroll__container {
+        overflow-y: visible;
+    }
+
+    .ads__footer footer{
+        height: 100px;
+        width: 94%;
+    }
+
+    .footer__subtitle {
+        width: 25rem;
+    }
 }
