@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/sidebar__footer.css">
     <link rel="stylesheet" href="src/styles/main-content.css">
+    <link rel="stylesheet" href="src/styles/artists.css">
     <link rel="stylesheet" href="src/styles/media-queries.css">
     <link rel="shortcut icon" href="src/assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
@@ -111,7 +112,7 @@
         </div>
 
         <div class="playlist__container">
-            <div class="result__playlists">
+            <div id="result__playlists">
                 <div class="playlist">
                     <h1 id="greeting"></h1>
                     <h2 class="session">Navegar por todas as seções</h2>
@@ -229,7 +230,27 @@
                     </div>
                 </div>
             </div>
+
+            <div id="result__artist" class="hidden">
+                <div class="grid__container">
+                    <div class="artist__card" id="">
+                        <div class="card__img">
+                            <img id="artist__img" class="artist__img"/>
+                            <div class="play">
+                                <span class="fa fa-solid fa-play"></span>
+                            </div>
+                        </div>
+                        <div class="card__text">
+                            <a href="" class="vst" title="Foo Fighters"></a>
+                            <span class="artist__name" id="artist__name"></span>
+                            <span class="artist__category">Artista</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
     </main>
 
 <div class="ads__footer">
@@ -240,7 +261,9 @@
         </div>
         <button class="subscribe__button">Inscreva-se grátis</button>
     </footer>
+
 </div>
     <script src="script.js"></script>
+    <script src="greetings.js"></script>
 </body>
 </html>
